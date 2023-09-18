@@ -27,4 +27,8 @@ app.use('/professor', professorRoute)
 import turmaRoute from './routes/turma.js'
 app.use('/turma', turmaRoute)
 
+import alunoRoute from './routes/aluno.js'
+app.use('/aluno', alunoRoute)
+
 export default app;
+
